@@ -56,7 +56,7 @@ epl-forecasting/
 
 ```bash
 git clone https://github.com/danielgeorge1097/epl-forecast.git
-cd epl-forecast
+cd epl-forecastv3-main/epl-forecastv3-main
 
 python -m venv .venv
 # Windows:
