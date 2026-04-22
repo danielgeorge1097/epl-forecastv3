@@ -70,14 +70,14 @@ pip install -r requirements.txt
 ### 2. Launch the dashboard
 
 ```bash
-cd epl-forecasting
+
 streamlit run app.py
 ```
 
 ### 3. Run the CLI pipeline
 
 ```bash
-cd epl-forecasting
+
 
 # Forecast only
 python run_pipeline.py
