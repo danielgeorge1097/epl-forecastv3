@@ -4,14 +4,6 @@ An end-to-end machine learning pipeline and interactive Streamlit dashboard for 
 
 ---
 
-## 📊 Dashboard Preview
-
-<img width="1892" height="929" alt="Screenshot 2026-04-21 112214" src="https://github.com/user-attachments/assets/0c52dea0-a627-41a1-844a-58b63836695b" />
-<img width="1849" height="828" alt="Screenshot 2026-04-21 112227" src="https://github.com/user-attachments/assets/70922844-e172-4934-9f16-8fee2ab2c055" />
-<img width="1838" height="792" alt="Screenshot 2026-04-21 112246" src="https://github.com/user-attachments/assets/ad98e922-ab0c-4ee2-90a8-57c6ef8e9e48" />
-
----
-
 ## 🌟 Features
 
 - **Multiple models** — HGBT, Random Forest, LightGBM, XGBoost, switchable from the UI
