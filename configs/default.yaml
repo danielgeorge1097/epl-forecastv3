@@ -1,0 +1,33 @@
+data:
+  season_table: data/raw/pl-tables-1993-2024.csv
+  match_table: data/raw/epl_final.csv
+
+model:
+  type: hgbt            # options: hgbt, rf, lgbm, xgb
+  tune_hyperparams: false  # set true to run Optuna search (slow, run via pipeline)
+
+training:
+  min_train_season: 2001
+
+forecast:
+  predict_season_end_year: 2025
+  promoted_teams:
+    - Leicester City
+    - Ipswich Town
+    - Southampton
+
+features:
+  use_match_features: true
+  rolling_windows: [2, 3]
+  use_home_away_splits: true
+  use_h2h_features: true
+
+simulation:
+  n_sims: 5000
+  use_poisson: true      # true = Poisson goal model; false = legacy logistic
+
+output:
+  dir: outputs/
+
+system:
+  random_state: 42
